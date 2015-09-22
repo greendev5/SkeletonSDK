@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkeletonSDK", "SkeletonSDK.vcxproj", "{9A948C7A-D2B1-AE10-F063-FD60DB07A76E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ctest", "ctest.vcxproj", "{0A237C16-E12A-E78E-0F44-5FD952A18347}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9A948C7A-D2B1-AE10-F063-FD60DB07A76E} = {9A948C7A-D2B1-AE10-F063-FD60DB07A76E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A948C7A-D2B1-AE10-F063-FD60DB07A76E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A948C7A-D2B1-AE10-F063-FD60DB07A76E}.Debug|Win32.Build.0 = Debug|Win32
+		{9A948C7A-D2B1-AE10-F063-FD60DB07A76E}.Release|Win32.ActiveCfg = Release|Win32
+		{9A948C7A-D2B1-AE10-F063-FD60DB07A76E}.Release|Win32.Build.0 = Release|Win32
+		{0A237C16-E12A-E78E-0F44-5FD952A18347}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A237C16-E12A-E78E-0F44-5FD952A18347}.Debug|Win32.Build.0 = Debug|Win32
+		{0A237C16-E12A-E78E-0F44-5FD952A18347}.Release|Win32.ActiveCfg = Release|Win32
+		{0A237C16-E12A-E78E-0F44-5FD952A18347}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
